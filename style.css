@@ -65,7 +65,7 @@ body {
 }
 
 #kitty {
-    border-radius: 80px/80px;
+    border-radius: 100px;
     margin-left: 1px;
     height: 200px;
     width: 200px;
@@ -108,4 +108,5 @@ body {
         text-align:center;
         display:block;
     }
+}
 }
