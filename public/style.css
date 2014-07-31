@@ -1,0 +1,112 @@
+body {
+    background-color: #77DAAD;
+    margin-top: 35px;
+
+}
+.middleBox {
+    border: 2px;
+    margin-left: 215px;
+    max-width:700px;
+}
+#header {
+	
+
+    //height: 165px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+   background-color: grey;
+   font-family: Garamond;
+   
+    
+}
+#about {
+	
+
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+   background-color: grey;
+    
+}
+
+#projects {
+	
+
+
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: grey;
+    
+}
+#projects, #about, #header
+{
+    width:auto;
+}
+
+#left {
+    float: left;
+    height: 500px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #c59496;
+   
+}
+
+#werk img {
+    border-radius: 100px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    
+}
+
+#kitty {
+    border-radius: 100px;
+    margin-left: 1px;
+    height: 200px;
+    width: 200px;
+
+}
+
+#toolbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
+    background: #ccc; /* some styling */
+    
+}
+
+#toolbar a{
+    text-decoration: none;
+}
+.span {
+    content: '\f200';
+}
+.photo
+{
+    display:none;
+}
+@media (max-width: 768px)
+{
+    #left{
+        display:none;
+    }
+    .middleBox{
+        margin-left:0px;
+    }
+    .photo
+    {
+        margin-top:10px;
+        padding:15px;
+        background-color: #c59496;
+        text-align:center;
+        display:block;
+    }
+}
+}
